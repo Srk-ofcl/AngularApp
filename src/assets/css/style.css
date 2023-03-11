@@ -59,23 +59,7 @@ img {
 .bg-light_Custom {
   background: #fff;
 }
-.header_Custom {
-  background: var(--brand-white);
-  padding: 40px 0;
-}
-.header_Custom .nav-link {
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.45px;
-  font-family: "Bebas Neue";
-  color: var(--brand-red);
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
-.header_Custom .nav-link:hover,
-.header_Custom .nav-link:focus {
-  color: var(--brand-black);
-}
+
 .about_Intro p {
   font-size: 2rem;
   padding: 2rem 0px 4rem;
@@ -423,20 +407,6 @@ img {
   display: none;
 }
 
-.header_Custom span.countNum {
-  border-bottom: 5px solid;
-  display: -webkit-inline-box;
-  font-size: 44px;
-  vertical-align: bottom;
-  line-height: 38px;
-}
-.header_Custom a.navbar-brand {
-  font-size: 56px;
-  letter-spacing: -1px;
-  color: var(--brand-red);
-  line-height: 38px;
-  font-family: "Bebas Neue";
-}
 .rmrl-read-more,
 .rmrl-read-less {
   display: inline-block;

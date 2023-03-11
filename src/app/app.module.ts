@@ -8,6 +8,7 @@ import {HomeComponent} from "./Pages/home/home.component";
 import {AboutComponent} from "./Pages/about/about.component";
 import { FooterComponent } from './components/footer/footer.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { ContactComponent } from './Pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
