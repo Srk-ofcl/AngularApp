@@ -1,0 +1,419 @@
+<!-- You can now use your library component in app.component.html -->
+<ngx-slick-carousel class="carousel"
+                    #slickModal="slick-carousel">
+  <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+    <img src="{{ slide.img }}" alt="" width="100%">
+  </div>
+</ngx-slick-carousel>
+
+
+
+
+<section class="hero_Section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="hero_cover text-center">
+          <figure>
+            <img src="/assets/images/hero_img.jpg" alt="Brand Cover" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about_Home">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="about_Intro">
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+            diam nonumy eirmod tempor invidunt ut labore et dolore magna
+            aliquyam erat, sed diam voluptua. At vero eos et accusam et
+            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+            takimata sanctus est.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Leistungen" class="home_Services">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="service_Item">
+          <h2>Leistungen</h2>
+          <div class="col-lg-8 col-md-12">
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              labore et dolore magna aliquyam erat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row sr_lits">
+      <div class="col-lg-7 col-md-5 col-sm-12 col-xs-12">
+        <div class="service_Inner">
+          <h3>Logodesign</h3>
+          <figure class="text-center">
+            <img class="img" src="/assets/images/leistungenBg.jpg" />
+          </figure>
+          <div class="btn btn-primary mt-4 brand_Red sm_hide">
+            Anfragen
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+        <div class="service_Right">
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+            diam nonumy eirmod tempor invidunt ut labore et dolore magna
+            aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+            invidunt ut labore.
+          </p>
+
+          <ul>
+            <li><span>Wählen Sie aus 2 Entwürfen</span></li>
+            <li><span> 2 Farbvarianten</span></li>
+            <li><span>Wortmarke</span></li>
+            <li><span>Vectordatei</span></li>
+            <li><span>Logopaket für Web und Druck</span></li>
+          </ul>
+
+          <div class="price_Area">
+            <span class="price_1">499.- €</span>
+            <span class="price_2">449.- €</span>
+            <span class="price_description">-10% Mitgliederabatt</span>
+          </div>
+          <div class="btn btn-primary mt-4 brand_Red sm_Show">
+            Anfragen
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row sr_lits">
+      <div class="col-lg-7 col-md-5 col-sm-12 col-xs-12">
+        <div class="service_Inner">
+          <h3>Geschäftsausstattung</h3>
+          <figure class="text-center">
+            <img class="img" src="/assets/images/leistungenBg.jpg" />
+          </figure>
+          <div class="btn btn-primary mt-4 brand_Red sm_hide">
+            Anfragen
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+        <div class="service_Right">
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+            diam nonumy eirmod tempor invidunt ut labore et dolore magna
+            aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+            invidunt ut labore.
+          </p>
+
+          <ul>
+            <li><span>Wählen Sie aus 2 Entwürfen</span></li>
+            <li><span> 2 Farbvarianten</span></li>
+            <li><span>Wortmarke</span></li>
+            <li><span>Vectordatei</span></li>
+            <li><span>Logopaket für Web und Druck</span></li>
+          </ul>
+
+          <div class="price_Area">
+            <span class="price_1">499.- €</span>
+            <span class="price_2">449.- €</span>
+            <span class="price_description">-10% Mitgliederabatt</span>
+          </div>
+          <div class="btn btn-primary mt-4 brand_Red sm_Show">
+            Anfragen
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row sr_lits">
+      <div class="home_Project">
+        <div class="col-sm-12">
+          <div class="col-sm-12">
+            <h2 class="title_H2">Webseite</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="column_Wrapper">
+                <figure><img src="/assets/images/sld-1.jpg" alt="" /></figure>
+                <h3>Webvisitenkarte + VK</h3>
+                <ul class="readMoreReadLessitems">
+                  <li class="item active"><span>Onepager Big</span></li>
+                  <li class="item active"><span>HTML Webseite</span></li>
+                  <li class="item active"><span>Mobil Optimiert</span></li>
+                  <li class="item"><span>SEO konform</span></li>
+                  <li class="item">
+                    <span>Modalfenster für Impressum & Datenschutz</span>
+                  </li>
+                  <li class="item"><span>HTML Webseite</span></li>
+                  <li class="item"><span>Mobil Optimiert</span></li>
+                  <li class="item"><span>SEO konform</span></li>
+                </ul>
+                <div class="price_Area">
+                  <span class="price_1">499.- €</span>
+                  <span class="price_2">449.- €</span>
+                  <span class="price_description"
+                  >-10% Mitgliederabatt</span
+                  >
+
+                  <div class="btn btn-primary mt-4">
+                    unverbindlich anfragen
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="column_Wrapper">
+                <figure><img src="/assets/images/sld-2.jpg" alt="" /></figure>
+                <h3>Onepager Small</h3>
+                <ul class="readMoreReadLessitems">
+                  <li class="item active"><span>Onepager Big</span></li>
+                  <li class="item active"><span>HTML Webseite</span></li>
+                  <li class="item active"><span>Mobil Optimiert</span></li>
+                  <li class="item"><span>SEO konform</span></li>
+                  <li class="item"><span>HTML Webseite</span></li>
+                  <li class="item"><span>Mobil Optimiert</span></li>
+                  <li class="item"><span>SEO konform</span></li>
+                  <li class="item">
+                    <span>Modalfenster für Impressum & Datenschutz</span>
+                  </li>
+                </ul>
+                <div class="price_Area">
+                  <span class="price_1">499.- €</span>
+                  <span class="price_2">1799.- €</span>
+                  <span class="price_description"
+                  >-10% Mitgliederabatt</span
+                  >
+                  <div class="btn btn-primary mt-4">
+                    unverbindlich anfragen
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="column_Wrapper">
+                <figure><img src="/assets/images/sld-3.jpg" alt="" /></figure>
+                <h3>Onepager Big</h3>
+                <ul class="readMoreReadLessitems">
+                  <li class="item active"><span>Onepager Big</span></li>
+                  <li class="item active"><span>HTML Webseite</span></li>
+                  <li class="item active"><span>Mobil Optimiert</span></li>
+                  <li class="item"><span>SEO konform</span></li>
+                  <li class="item"><span>HTML Webseite</span></li>
+                  <li class="item "><span>Mobil Optimiert</span></li>
+                  <li class="item"><span>SEO konform</span></li>
+                  <li class="item">
+                    <span>Modalfenster für Impressum & Datenschutz</span>
+                  </li>
+                </ul>
+                <div class="price_Area">
+                  <span class="price_1">499.- €</span>
+                  <span class="price_2">3599.- €</span>
+                  <span class="price_description"
+                  >-10% Mitgliederabatt</span>
+
+                  <div class="btn btn-primary mt-4">
+                    unverbindlich anfragen
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row sr_lits after_None">
+      <div class="home_Project">
+        <div class="col-sm-12">
+          <div class="col-sm-12">
+            <h2 class="title_H2">Zusatz leistungen</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="column_Wrapper">
+                <h3>Texte</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+                <ul>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                </ul>
+                <div class="price_Area">
+                  <span class="price_1">499.- €</span>
+                  <span class="price_2">449.- €</span>
+                  <span class="price_description"
+                  >-10% Mitgliederabatt</span>
+                  <div class="btn btn-primary brand_Red mt-4">
+                    Anfragen
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="column_Wrapper">
+                <h3>Texte</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+                <ul>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                </ul>
+                <div class="price_Area">
+                  <span class="price_1">499.- €</span>
+                  <span class="price_2">449.- €</span>
+                  <span class="price_description"
+                  >-10% Mitgliederabatt</span>
+                  <div class="btn btn-primary brand_Red mt-4">
+                    Anfragen
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="column_Wrapper">
+                <h3>Texte</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+                <ul>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                </ul>
+                <div class="price_Area">
+                  <span class="price_1">499.- €</span>
+                  <span class="price_2">449.- €</span>
+                  <span class="price_description"
+                  >-10% Mitgliederabatt</span>
+                  <div class="btn btn-primary brand_Red mt-4">
+                    Anfragen
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="column_Wrapper">
+                <h3>Texte</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+                <ul>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                  <li><span>Lorem ipsum</span></li>
+                </ul>
+                <div class="price_Area">
+                  <span class="price_1">499.- €</span>
+                  <span class="price_2">449.- €</span>
+                  <span class="price_description"
+                  >-10% Mitgliederabatt</span
+                  >
+                  <div class="btn btn-primary brand_Red mt-4">
+                    Anfragen
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer_Upper">
+  <div class="container">
+
+
+    <div class="row">
+      <div class="mobile_slide">
+        <div class="item">
+          <figure>
+            <img src="/assets/images/laravel-1.svg" alt="Laravel" />
+          </figure>
+        </div>
+        <div class="item">
+          <figure><img src="/assets/images/sass.svg" alt="Laravel" /></figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="/assets/images/laravel-1.svg" alt="Laravel" />
+          </figure>
+        </div>
+        <div class="item">
+          <figure><img src="/assets/images/sass.svg" alt="Laravel" /></figure>
+        </div>
+        <div class="item">
+          <figure><img src="/assets/images/sass.svg" alt="Laravel" /></figure>
+        </div>
+        <div class="item">
+          <figure><img src="/assets/images/sass.svg" alt="Laravel" /></figure>
+        </div>
+        <div class="item">
+          <figure><img src="/assets/images/sass.svg" alt="Laravel" /></figure>
+        </div>
+        <div class="item">
+          <figure><img src="/assets/images/sass.svg" alt="Laravel" /></figure>
+        </div>
+        <div class="item">
+          <figure><img src="/assets/images/sass.svg" alt="Laravel" /></figure>
+        </div>
+        <div class="item">
+          <figure><img src="/assets/images/sass.svg" alt="Laravel" /></figure>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="referenzen" class="row">
+      <div class="col-sm-12">
+        <div class="slider_24">
+          <div class="content_head">
+            <h2>REFERENZEN</h2>
+          </div>
+          <div class="slick-slider">
+            <div class="item">
+              <img src="/assets/images/sliderImage1.jpeg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/assets/images/sliderImage1.jpeg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/assets/images/sliderImage1.jpeg" alt="" />
+            </div>
+
+            <div class="item">
+              <img src="/assets/images/sliderImage1.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

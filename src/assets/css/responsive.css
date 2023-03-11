@@ -1,0 +1,234 @@
+@media (max-width: 1260px) {
+  .slider_24 h2 {
+    font-size: 5rem;
+  }
+  /* .container,
+  .container-md,
+  .container-sm {
+    max-width: 100%;
+  } */
+  .about_Intro p,
+  .service_Item p {
+    font-size: 1.5rem;
+    line-height: 36px;
+  }
+  .about_Intro p {
+    padding: 0rem 0px 1rem;
+  }
+  .home_Services {
+    padding: 3rem 0;
+    background: var(--brand-light);
+  }
+  .service_Item h2,
+  .footer h3 {
+    font-size: 5rem;
+  }
+  .slider_24 .slick-prev::before,
+  .slider_24 .slick-next::before {
+    font-size: 160px;
+  }
+  .slider_24 button.slick-next.slick-arrow {
+    right: 135px;
+    top: -44%;
+  }
+  .slider_24 button.slick-prev.slick-arrow {
+    left: 72%;
+    top: -44%;
+  }
+}
+@media (max-width: 1023px) {
+  .service_Item h2,
+  .footer h3 {
+    font-size: 4rem;
+  }
+  .slider_24 h2 {
+    font-size: 4rem;
+  }
+  .slider_24 .slick-prev:before,
+  .slider_24 .slick-next:before {
+    font-size: 60px;
+  }
+  .slider_24 button.slick-next.slick-arrow {
+    right: 40px;
+    top: 100%;
+  }
+  .slider_24 button.slick-prev.slick-arrow {
+    left: 0;
+    top: 100%;
+  }
+  .slider_24 {
+    margin: 1rem 0 0;
+  }
+}
+@media (max-width: 991px) {
+  .service_Inner h3 {
+    font-size: 2rem;
+  }
+  .price_Area .price_2 {
+    font-size: 3rem;
+    line-height: 46px;
+  }
+  .title_H2 {
+    font-size: 3rem;
+    line-height: 46px;
+  }
+  .column_Wrapper h3 {
+    font-size: 1.5rem;
+  }
+  .brand_Red {
+    font-size: 1.4em;
+  }
+  .sr_lits::after {
+    margin-top: 2rem;
+  }
+  .sr_lits {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .service_Inner h3 {
+    font-size: 1.6rem;
+  }
+  .price_Area .price_2 {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  .title_H2 {
+    font-size: 2rem;
+  }
+  .sr_lits::after {
+    margin-top: 1.7rem;
+  }
+  .sr_lits {
+    margin-top: 1.7rem;
+  }
+  .slider_24 h2 {
+    font-size: 2rem;
+  }
+  .service_Item h2 {
+    font-size: 2.5rem;
+  }
+  .about_Intro p,
+  .service_Item p {
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  .about_Intro p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .home_Services {
+    padding: 2rem 0;
+  }
+  .powerd_By,
+  .copy_Link {
+    justify-content: center;
+  }
+  .copy_Link a {
+    margin: 10px 10px 0;
+  }
+  .copy_Area {
+    margin-top: 1rem;
+  }
+  form button.btn.btn-primary {
+    margin-top: 20px;
+  }
+  .column_Wrapper img {
+    width: 100%;
+  }
+  .title_H2 {
+    margin: 0;
+  }
+  .footer h3 {
+    line-height: 50px;
+    font-size: 2.5rem;
+  }
+  .footer_Upper {
+    padding: 2rem 0;
+  }
+  .footer .address {
+    margin-bottom: 20px;
+    border-bottom: solid 1px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+  .powerd_By span {
+    margin-right: 10px;
+  }
+  .footer .right_footer .form-group.message {
+    margin-top: 0;
+  }
+  .header_Custom {
+    padding: 10px 0;
+  }
+  .navbar-toggler {
+    padding: 0;
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-collapse {
+    background: #fafafa;
+    margin-top: 15px;
+  }
+  #mynavbar ul li {
+    border-bottom: solid 1px;
+  }
+  #mynavbar ul li:first-child {
+    border-top: solid 1px;
+  }
+  .navbar-toggler:hover {
+    opacity: 0.7;
+  }
+
+  .sm_hide {
+    display: none;
+  }
+
+  .sm_Show {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .header_Custom a.navbar-brand {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .header_Custom span.countNum {
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: normal;
+  }
+  .price_Area .price_1 {
+    font-size: 1.5rem;
+  }
+  .footer {
+    padding: 2rem 0px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer .address p {
+    line-height: 20px;
+  }
+  .footer form {
+    margin: 20px 0;
+  }
+  .footer .left-text {
+    justify-content: center;
+  }
+  .footer .footer-menu.right-text ul {
+    justify-content: center;
+  }
+  .footer {
+    padding: 30px 0px;
+    margin-top: 40px;
+  }
+}
